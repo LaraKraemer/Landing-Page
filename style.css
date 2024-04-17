@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+}
+body {
+    min-height: 100vh;
+}
+/*-- Navbar section! */
+
+.navbar {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    background-color: #181e38;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 13px;
+    text-decoration: none;
+    
+}
+nav li:first-child {
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*-- Intro section! */
+.container-one {
+    display: flex;   
+    background-color: #181e38;
+    color: white;
+}
+.intro {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0 30px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#image {
+    display: flex;
+    margin: left auto;
+    width: 450px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-right: 140px;
+    align-items: center;
+}
+#intro-button, #button-link {
+    justify-content: center;
+    display: inline-block;
+    font-size: 10px;
+    background-color: dodgerblue;
+    border: dodgerblue;
+    color: white;
+    width: 100px;
+    border-radius: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-decoration: none;
+}
+#intro-header {
+    font-size: 48px;
+    font-weight: bolder;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#intro-text {
+    font-size: 13px;
+    font-weight: bolder;
+    padding-top: 7px;
+    padding-bottom: 20px;
+    color: lightgrey;
+}
+
+/*-- Main section! */
+.container-two {
+    display: flex;   
+    background-color: white;
+    color: black;
+    width: 100%;
+    
+}
+.flex-container {
+    display: flex;   
+    flex-direction: row;
+}
+.flex-container > div {
+    border: 1px solid blue;
+    justify-content: center;
+    border-radius: 8px;
+    width: 100px;
+    margin: 10px 10px;
+    line-height: 75px;
+}
+/*-- Quote section! */
+
+.container-three {
+    display: flex;   
+    background-color: lightgray;
+    color: black;
+    height: 80px;
+    width: 100%;
+}

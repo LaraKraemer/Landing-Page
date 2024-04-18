@@ -8,7 +8,6 @@ body {
     min-height: 100vh;
 }
 /*-- Navbar section! */
-
 .navbar {
     width: 100%;
     display: flex;
@@ -86,10 +85,11 @@ nav li:first-child {
     justify-content: center;
     gap: 20px;
     background-color: white;
-    color: black;
+    color: #1F2937;
     margin-top: 30px;
     margin-bottom: 30px;
     font-weight: bold;
+    font-size: 25px;
 }
 .intro-images {
     display: flex;
@@ -98,7 +98,7 @@ nav li:first-child {
 .boxes {
     width: 150px;
     height: 150px;
-    border: 5px solid dodgerblue;
+    border: 5px solid black;
     border-radius: 10px;
     justify-content: center;
 }
@@ -106,9 +106,9 @@ nav li:first-child {
     display: flex;
     justify-content: center;
     font-weight: 100;
+    font-size: 15px;
 }
 /*-- Quote section! */
-
 .container-three {
     display: flex;   
     flex-direction: column;
@@ -128,12 +128,49 @@ nav li:first-child {
     align-items: flex-end;
     font-weight: bold;
 }
-
 /*-- Call to action section! */
-.action-button {
-
+.call-action {
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    justify-content: center;
 }
-
+.outer-button {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    width: 700px;  
+    border-radius: 10px;
+    text-indent: 4px;
+    background: dodgerblue;
+    border: 5px solid dodgerblue;
+    color: #E5E7EB;
+}
+.outer-button > button {
+    display: flex;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: dodgerblue;
+    color: #E5E7EB;
+    align-self:flex-end;
+    
+}
+.headline {
+    font-size: 28px;
+    font-weight: bolder;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 40px;;
+    margin-top: 30px;
+}
+.text {
+    font-size: 13px;
+    margin-top: 10px;
+    padding-top: 7px;
+    padding-bottom: 20px;
+    padding-left: 40px;;
+}
 /*-- Footer section! */
 footer{
     display: flex;

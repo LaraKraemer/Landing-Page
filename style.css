@@ -13,8 +13,6 @@ body {
     width: 100%;
     display: flex;
     list-style-type: none;
-    justify-content: flex-end;
-    align-items: center;
     color: white;
     background-color: #181e38;
     padding-top: 20px;
@@ -35,7 +33,6 @@ nav li:first-child {
     font-size: 18px;
     font-weight: bold;
 }
-
 /*-- Intro section! */
 .container-one {
     display: flex;   
@@ -44,43 +41,35 @@ nav li:first-child {
 }
 .intro {
     display: flex;
-    flex: 1;
     flex-direction: column;
-    padding: 0 30px;
-    margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 50px 50px 30px;
+    align-content: space-around;
 }
-#image {
+.image-berlin {
     display: flex;
-    margin: left auto;
-    width: 450px;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 60px;
-    padding-right: 140px;
-    align-items: center;
+    margin: 0%;
+    width: 550px;
+    padding: 30px 50px 50px 30px;
 }
-#intro-button, #button-link {
-    justify-content: center;
-    display: inline-block;
+.intro-button, .button-link {
+    display: flex;
     font-size: 10px;
     background-color: dodgerblue;
     border: dodgerblue;
     color: white;
-    width: 100px;
     border-radius: 8px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding: 10px 15px;
+    width: 120px;
     text-decoration: none;
+    text-align: center;
 }
-#intro-header {
+.intro-header {
     font-size: 48px;
     font-weight: bolder;
     padding-top: 7px;
     padding-bottom: 7px;
 }
-#intro-text {
+.intro-text {
     font-size: 13px;
     font-weight: bolder;
     padding-top: 7px;
@@ -121,11 +110,21 @@ nav li:first-child {
 
 .container-three {
     display: flex;   
-    background-color: lightgray;
-    color: black;
-    height: 80px;
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    height: 200px;
 }
-
-
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+.author {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: bold;
+}
 /*-- Footer section! */

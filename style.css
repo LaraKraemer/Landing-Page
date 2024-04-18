@@ -50,6 +50,7 @@ nav li:first-child {
     margin: 0%;
     width: 550px;
     padding: 30px 50px 50px 30px;
+    border-radius: 5px;
 }
 .intro-button, .button-link {
     display: flex;
@@ -127,4 +128,20 @@ nav li:first-child {
     align-items: flex-end;
     font-weight: bold;
 }
+
+/*-- Call to action section! */
+.action-button {
+
+}
+
 /*-- Footer section! */
+footer{
+    display: flex;
+    background-color: #181e38;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
